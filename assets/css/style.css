@@ -77,6 +77,31 @@ br {
 	margin: 40px 8.33% 40px 8.33%;
 }
 
+#github,
+#linkedin,
+#stacko {
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+}
+
+#connect-bottom {
+	width: 50%;
+	border-bottom: 4px solid #cccccc;
+	margin: 0 auto;
+	margin-bottom: 25px;
+
+}
+.social {
+	text-align: center;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	margin-top: 38px; 
+	margin-right: 38px;
+	float: left;
+}
+
 #foot {
 	height: 90px;
 	clear: both;
