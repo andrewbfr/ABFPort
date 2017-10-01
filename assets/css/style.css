@@ -2,21 +2,58 @@
 h1,
 h2 {
 	
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, Times New Roman, serif !important;
 }
 
 ul,
 p	{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
 }
 
-
+/*Navbar, lots of Bootstrap overrides. Also consider
+the element,class and ID weight scale for
+overriding bootstrap
+Full and 980px*/
 nav {
 	height: 90px !important;
-	line-height: 200% !important;
 	background-color: #ffffff !important;
 	border-bottom-width: 2px !important;
     border-bottom-style: solid !important;
     border-bottom-color: #cccccc !important;
 }
 
+span > a > h1 {
+	background-color: #4aaaa5;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 16.66%;
+	margin-right: 16.66%;
+	line-height: 88px;
+	color: #ffffff;
+	padding-left: 35px;
+	padding-right: 35px;
+	font-weight: bold;
+}
+
+.navbar-brand {
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+ul {
+	padding-top: 20px;
+}
+
+
+
+/*768px screen*/
+@media screen and (max-width: 768px) {
+
+
+
+
+
+
+
+
+	}
