@@ -14,34 +14,49 @@ p	{
 the element,class and ID weight scale for
 overriding bootstrap
 Full and 980px*/
+
+.container {
+	margin-left: 8.33% ;
+	margin-right: 8.33%;
+}
 nav {
 	height: 90px !important;
 	background-color: #ffffff !important;
 	border-bottom-width: 2px !important;
     border-bottom-style: solid !important;
     border-bottom-color: #cccccc !important;
+    margin-bottom: 35px !important;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 span > a > h1 {
 	background-color: #4aaaa5;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	margin-left: 16.66%;
-	margin-right: 16.66%;
+	/*margin-left: 16.66%;
+	margin-right: 16.66%;*/
 	line-height: 88px;
 	color: #ffffff;
 	padding-left: 35px;
 	padding-right: 35px;
 	font-weight: bold;
+
 }
 
 .navbar-brand {
 	padding-bottom: 0px;
 	padding-top: 0px;
+
+
 }
+
+
 
 ul {
 	padding-top: 20px;
+	font-size: 1.25em;
+	position: inherit;
 }
 
 
@@ -49,11 +64,23 @@ ul {
 /*768px screen*/
 @media screen and (max-width: 768px) {
 
-
-
-
-
-
-
+ul {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    display: inline;
+    float: left;
 
 	}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 640px){
+
+
+}
