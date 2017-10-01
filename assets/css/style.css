@@ -3,6 +3,7 @@ h1,
 h2 {
 	
 	font-family: 'Georgia', Times, Times New Roman, serif !important;
+	font-weight: bold;
 }
 
 ul,
@@ -31,13 +32,10 @@ span > a > h1 {
 	background-color: #4aaaa5;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	/*margin-left: 16.66%;
-	margin-right: 16.66%;*/
 	line-height: 88px;
 	color: #ffffff;
 	padding-left: 35px;
 	padding-right: 35px;
-	font-weight: bold;
 
 }
 
@@ -64,13 +62,20 @@ br {
 	border-bottom: 4px solid #cccccc;
 }
 
-p {
+#about {
 	background-color: #ffffff;
-	color: #4aaaa5;
-	display: block;
+	color: #666666;
+	display: inline;
 	float: left;
+	padding-right: 4%;
+	padding-left: 4%;
 	border: 1px solid #cccccc;
-	}
+
+}
+
+#bio {
+	margin: 40px 8.33% 40px 8.33%;
+}
 
 #foot {
 	height: 90px;
