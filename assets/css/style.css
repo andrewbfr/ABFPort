@@ -15,12 +15,9 @@ the element,class and ID weight scale for
 overriding bootstrap
 Full and 980px*/
 
-.container {
-	margin-left: 8.33% ;
-	margin-right: 8.33%;
-}
+
 nav {
-	height: 90px !important;
+	height: 90px !important; /*!important not the best way...*/
 	background-color: #ffffff !important;
 	border-bottom-width: 2px !important;
     border-bottom-style: solid !important;
@@ -67,11 +64,21 @@ br {
 	border-bottom: 4px solid #cccccc;
 }
 
+p {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	display: block;
+	float: left;
+	border: 1px solid #cccccc;
+	}
+
 #foot {
 	height: 90px;
 	clear: both;
 	background-color: #666666;
-	padding: 35px 0px 40px 0px;
+	padding-top: 35px;
+	padding-bottom: 40px;
+	margin: 0 auto;
 	border-top-width: 8px;
     border-top-style: solid;
     border-top-color: #4aaaa5;
