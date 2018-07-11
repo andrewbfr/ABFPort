@@ -1,4 +1,4 @@
-/*carrying over font families*/
+
 h1,
 h2 {
 	
@@ -11,10 +11,7 @@ p	{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
 }
 
-/*Navbar, lots of Bootstrap overrides. Also consider
-the element,class and ID weight scale for
-overriding bootstrap
-Full and 980px*/
+/*Full and 980px*/
 
 
 nav {
@@ -36,16 +33,12 @@ span > a > h1 {
 	color: #ffffff;
 	padding-left: 35px;
 	padding-right: 35px;
-
 }
 
 .navbar-brand {
 	padding-bottom: 0px;
 	padding-top: 0px;
-
-
 }
-
 
 
 ul {
@@ -66,11 +59,10 @@ br {
 	background-color: #ffffff;
 	color: #666666;
 	display: inline;
-	float: left;
+	/* float: left; */
 	padding-right: 4%;
 	padding-left: 4%;
 	border: 1px solid #cccccc;
-
 }
 
 #bio {
@@ -90,7 +82,6 @@ br {
 	border-bottom: 4px solid #cccccc;
 	margin: 0 auto;
 	margin-bottom: 25px;
-
 }
 .social {
 	text-align: center;
@@ -128,17 +119,12 @@ ul {
     position: relative;
     display: inline;
     float: left;
-
 	}
-
-
-
-
-
 }
 
 
+/* get to this in a bit
 @media screen and (max-width: 640px){
 
-
 }
+*/
