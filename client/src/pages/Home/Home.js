@@ -37,7 +37,7 @@ const Home = props =>
                     </div>
                 <br></br>             
                     <div class="col-md-4" id="social">
-                    <h2>Connect With Me</h2>
+                        <h2>Connect With Me</h2>
                         <div id="connect-bottom"></div>
                         <a href="https://github.com/andrewbfr" target="_blank" rel="noopener noreferrer">
                             <img src="../../assets/images/if_github_386637.png" alt="github icon" id="github"></img>
