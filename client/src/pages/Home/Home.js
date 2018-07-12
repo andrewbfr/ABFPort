@@ -1,26 +1,21 @@
 import React, { Component } from "react";
+import './style.css';
+
 
 const Home = props =>
     <div>
-        {/* <style type="text/css"> 
-          body {
-          margin: 0;
-          padding: 0;
-          background-image: url(./assets/images/concrete-texture.png);
-          }
-        </style> */}
         {/*Static Navbar*/}
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container-fluid">
                 <div class="row">
                     <div class="container-fluid">
                         <span>
-                            <a class="navbar-brand" href="index.html"><h1>Andrew Ferrer</h1></a>
+                            <a class="navbar-brand" href="/"><h1>Andrew Ferrer</h1></a>
                         </span>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="https://www.linkedin.com/in/andrew-ferrer/">Contact</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/projects">Portfolio</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>	
                 </div>
