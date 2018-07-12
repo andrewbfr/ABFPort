@@ -27,6 +27,19 @@ const Contact = () =>
 
     {/*Main Content*/}
     <div class="container">
+        <div class="col-md-4" id="social">
+            <h2>Connect With Me</h2>
+            <div id="connect-bottom"></div>
+            <a href="https://github.com/andrewbfr" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/images/if_github_386637.png" alt="github icon" id="github"></img>
+            </a>
+            <a href="https://www.linkedin.com/in/andrew-ferrer-9aa011a6/" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/images/if_linkedin2_326115.png" alt="linkedin icon" id="linkedin"></img>
+            </a>
+            <a href="https://stackoverflow.com/users/8497994/andrewbfr" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/images/if_overflow_386674.png" alt="stack overflow icon" id="stacko"></img>
+            </a>
+        </div>
         
     </div> 
 
