@@ -47,13 +47,13 @@ const Projects = () =>
                     <h2>Connect With Me</h2>
                     <div id="connect-bottom"></div>
                         <a href="https://github.com/andrewbfr" target="_blank">
-                        <img src="assets/images/if_github_386637.png" alt="github icon" id="github"></img>
+                        <img src="../../assets/images/if_github_386637.png" alt="github icon" id="github"></img>
                         </a>
                         <a href="https://www.linkedin.com/in/andrew-ferrer/" target="_blank">
-                        <img src="assets/images/if_linkedin2_326115.png" alt="linkedin icon" id="linkedin"></img>
+                        <img src="../../assets/images/if_linkedin2_326115.png" alt="linkedin icon" id="linkedin"></img>
                         </a>
                         <a href="https://stackoverflow.com/users/8497994/andrewbfr" target="_blank">
-                        <img src="assets/images/if_overflow_386674.png" alt="stack overflow icon" id="stacko"></img>
+                        <img src="../../assets/images/if_overflow_386674.png" alt="stack overflow icon" id="stacko"></img>
                         </a>
                 </div>
             </div>	
