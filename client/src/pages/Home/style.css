@@ -8,27 +8,38 @@ body {
 	grid-row-gap: 1vh;
 	grid-column-gap: 1vw;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 30vh 50vh 20vh;
+	grid-template-rows: 15vh 70vh 15vh;
 	grid-template-areas: 
-		"gNavBar" "gNavBar" "gNavBar" "gNavBar"
-		"main" "main" "main" "social"
-		"footer" "footer" "footer" "footer"
+		"header header header header"
+		"main main main main"
+		"footer footer footer footer";
 }
 .gNavBar{
-	grid-column-start: 1;
-	grid-column-end: 5;
-	grid-row-start: 1;
+	display: grid;
+	grid-area: header;
 	background-color: #4aaaa5;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	font-size: 2vh;
+	text-decoration: none;
 	color: #ffffff;
+	border-bottom-width: 2px !important;
+	border-bottom-style: solid !important;
+	border-bottom-color: #cccccc !important;
 }
 
-.main{
-	grid-row-start: 2;
-	grid-column-start: 1;
-	grid-column-end: 3;
+.name {
+	display: grid;
+	grid-area: 1 / 1 / 1 / 2;
+	justify-content: center;
+    align-items: baseline;
 }
+
+.navbar-links {
+	display: grid;
+	grid-area: 1 / 3 / 1 / 4;
+	justify-content: center;
+    align-items: center;
+}
+
 h1,
 h2 {
 	
@@ -41,70 +52,40 @@ p	{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
 }
 
-/*Full and 980px*/
-
-
-nav {
-	grid-row-start: 1;
-	background-color: #ffffff !important;
-	border-bottom-width: 2px !important;
-    border-bottom-style: solid !important;
-    border-bottom-color: #cccccc !important;
-    margin-bottom: 35px !important;
-    padding-left: 0%;
-	padding-right: 0%;
-	padding-bottom: 0px;
-	padding-top: 0px;
-}
-
-.name {
-	grid-row-start: 2;
-	grid-row-end: 4;	
-}
-
-.navbar-links {
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 1;
-}
-
-ul {
-	/* padding-top: 20px; */
-	font-size: 1.25em;
-}
-/*About Me*/
-
 br {
-	margin-left: 30px;
-	margin-top: 0px;
-	margin-bottom: 30px;
 	border-bottom: 4px solid #cccccc;
 }
 
-#about {
+.main{
+	display: grid;
+	grid-area: main;
+}
+
+.about {
 	background-color: #ffffff;
 	color: #666666;
-	padding-right: 4%;
-	padding-left: 4%;
+	grid-area: 2 / 1 / 2 / 3;
+	justify-self: start;
 	border: 1px solid #cccccc;
+
 }
 
-#bio {
-	margin: 40px 8.33% 40px 8.33%;
+.bio {
+	color: "#4aaaa5";
 }
 
-#github,
+/* #github,
 #linkedin,
 #stacko {
 	width: 60px;
 	height: 60px;
 	margin-left: 10px;
-}
+} */
 
 #connect-bottom {
 	width: 50%;
 	border-bottom: 4px solid #cccccc;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	margin-bottom: 25px;
 }
 .social {
@@ -112,14 +93,12 @@ br {
 	color: #4aaaa5;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
-	margin-top: 38px; 
-	margin-right: 38px;
+	grid-area: 2 / 3 / 2 / 4;
+	justify-self: end;
 }
 
-.foot {
-	grid-row-start: 3;
-	grid-column-start: 1;
-	grid-column-end: 5;
+.footer {
+	grid-area: footer;
 	background-color: #666666;
 	padding-top: 35px;
 	padding-bottom: 40px;
