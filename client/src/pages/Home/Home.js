@@ -3,40 +3,36 @@ import './style.css';
 
 
 const Home = props =>
-    <div>
+    <div className="grid-container">
         {/*Static Navbar*/}
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="container-fluid">
-                        <span>
-                            <a class="navbar-brand" href="/"><h1>Andrew Ferrer</h1></a>
-                        </span>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/">About</a></li>
-                            <li><a href="/projects">Portfolio</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                        </ul>
-                    </div>	
-                </div>
+        <nav className="gNavBar">
+            <div className="nav">
+                <span>
+                    <a className="name" href="/"><h1>Andrew Ferrer</h1></a>
+                </span>
+                <ul className="navbar-links">
+                    <li><a href="/">About</a></li>
+                    <li><a href="/projects">Portfolio</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
 
 
 
 {/*Main Content*/}
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8" id="about">
+        <div className="main">
+            <div className="">
+                <div className="" id="about">
                     <div>
-                        <h1 class="col-md-7 id" id="bio" style={{color: "#4aaaa5"}}>About Me</h1>
+                        <h1 className="id" id="bio" style={{color: "#4aaaa5"}}>About Me</h1>
                     </div>
                 <br></br>
                     <div>
-                        <img class="col-md-7" src="../../assets/images/headshot.jpg" alt="headshot of author" class="img-responsive"></img>
+                        <img className="" src="../../assets/images/headshot.jpg" alt="headshot of author" className="img-responsive"></img>
                     </div>
                 <br></br>             
-                    <div class="col-md-4" id="social">
+                    <div className="social">
                         <h2>Connect With Me</h2>
                         <div id="connect-bottom"></div>
                         <a href="https://github.com/andrewbfr" target="_blank" rel="noopener noreferrer">
@@ -56,9 +52,9 @@ const Home = props =>
 
     {/*footer*/}
 
-        <div class="container-fluid navbar-fixed-bottom">
-            <div class="row">
-                <footer class="col-12 text-center" id="foot">
+        <div className="foot">
+            <div className="">
+                <footer className="">
                 &copy; Copyright 2018 Andrew Ferrer
                 </footer>
             </div>

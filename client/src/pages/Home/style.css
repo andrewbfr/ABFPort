@@ -1,7 +1,33 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../../assets/images/concrete-texture.png);
+	margin: 0;
+	padding: 0;
+	background-image: url(../../assets/images/concrete-texture.png);
+}
+.grid-container {
+	display: grid;
+	grid-row-gap: 1vh;
+	grid-column-gap: 1vw;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 30vh 50vh 20vh;
+	grid-template-areas: 
+		"gNavBar" "gNavBar" "gNavBar" "gNavBar"
+		"main" "main" "main" "social"
+		"footer" "footer" "footer" "footer"
+}
+.gNavBar{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	background-color: #4aaaa5;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+
+.main{
+	grid-row-start: 2;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 h1,
 h2 {
@@ -19,36 +45,32 @@ p	{
 
 
 nav {
-	height: 90px !important; /*!important not the best way...*/
+	grid-row-start: 1;
 	background-color: #ffffff !important;
 	border-bottom-width: 2px !important;
     border-bottom-style: solid !important;
     border-bottom-color: #cccccc !important;
     margin-bottom: 35px !important;
     padding-left: 0%;
-    padding-right: 0%;
-}
-
-span > a > h1 {
-	background-color: #4aaaa5;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	line-height: 88px;
-	color: #ffffff;
-	padding-left: 35px;
-	padding-right: 35px;
-}
-
-.navbar-brand {
+	padding-right: 0%;
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
 
+.name {
+	grid-row-start: 2;
+	grid-row-end: 4;	
+}
+
+.navbar-links {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+}
 
 ul {
-	padding-top: 20px;
+	/* padding-top: 20px; */
 	font-size: 1.25em;
-	position: inherit;
 }
 /*About Me*/
 
@@ -62,8 +84,6 @@ br {
 #about {
 	background-color: #ffffff;
 	color: #666666;
-	display: inline;
-	/* float: left; */
 	padding-right: 4%;
 	padding-left: 4%;
 	border: 1px solid #cccccc;
@@ -94,16 +114,16 @@ br {
 	border: 1px solid #cccccc;
 	margin-top: 38px; 
 	margin-right: 38px;
-	float: left;
 }
 
-#foot {
-	height: 90px;
-	clear: both;
+.foot {
+	grid-row-start: 3;
+	grid-column-start: 1;
+	grid-column-end: 5;
 	background-color: #666666;
 	padding-top: 35px;
 	padding-bottom: 40px;
-	margin: 0 auto;
+	margin: 0;
 	border-top-width: 8px;
     border-top-style: solid;
     border-top-color: #4aaaa5;
@@ -120,9 +140,6 @@ br {
 ul {
 	padding-top: 15px;
     padding-bottom: 15px;
-    position: relative;
-    display: inline;
-    float: left;
 	}
 }
 

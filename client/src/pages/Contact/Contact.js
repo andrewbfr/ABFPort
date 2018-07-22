@@ -5,19 +5,19 @@ import './style.css';
 const Contact = () =>
 <div>
     {/*Static Navbar*/}
-    <nav class="navbar navbar-default navbar-static-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="container-fluid">
+    <nav className="navbar navbar-default navbar-static-top">
+        <div className="container-fluid">
+            <div className="row">
+                <div className="container-fluid">
                     <span>
-                    <a class="navbar-brand" href="/"><h1>Andrew Ferrer</h1></a>
+                    <a className="navbar-brand" href="/"><h1>Andrew Ferrer</h1></a>
                     </span>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul className="nav navbar-nav navbar-right">
                         <li><a href="/">About</a></li>
                         <li><a href="/projects">Portfolio</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>	
-                    <div class="col-md-2"></div>
+                    <div className="col-md-2"></div>
                 </div>	
             </div>
         </div>
@@ -26,8 +26,8 @@ const Contact = () =>
 
 
     {/*Main Content*/}
-    <div class="container">
-        <div class="col-md-4" id="social">
+    <div className="container">
+        <div className="col-md-4" id="social">
             <h2>Connect With Me</h2>
             <div id="connect-bottom"></div>
             <a href="https://github.com/andrewbfr" target="_blank" rel="noopener noreferrer">
@@ -47,9 +47,9 @@ const Contact = () =>
 
     {/*footer*/}
 
-    <div class="container-fluid navbar-fixed-bottom">
-        <div class="row">
-            <footer class="col-12 text-center" id="foot">
+    <div className="container-fluid navbar-fixed-bottom">
+        <div className="row">
+            <footer className="col-12 text-center" id="foot">
                 &copy; Copyright 2018 Andrew Ferrer
             </footer>
         </div>
