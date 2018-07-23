@@ -6,12 +6,12 @@ const Home = props =>
     <div className="grid-container">
         {/*Static Navbar*/}
         <div className="gNavBar">
-                <div className="name">
-                    <a href="/"><h1>Andrew Ferrer</h1></a>
-                </div>
-                <div className="navbar-links">
-                    <a href="/">About</a><a href="/projects">Portfolio</a><a href="/contact">Contact</a>
-                </div>
+            <div className="name">
+                <a href="/"><h2>Andrew Ferrer</h2></a>
+            </div>
+            <div className="navbar-links">
+                <a href="/">About</a><a href="/projects">Portfolio</a><a href="/contact">Contact</a>
+            </div>
         </div>
 
 
@@ -26,10 +26,10 @@ const Home = props =>
                 </div>
             <br></br>      
             </div>
-
-            <div className="social">
+        </div>  
+        <div className="social">
+            <div>
                 <h2>Connect With Me</h2>
-                <div id="connect-bottom"></div>
                 <a href="https://github.com/andrewbfr" target="_blank" rel="noopener noreferrer">
                     <img src="../../assets/images/if_github_386637.png" alt="github icon" id="github"></img>
                 </a>

@@ -11,7 +11,7 @@ body {
 	grid-template-rows: 15vh 70vh 15vh;
 	grid-template-areas: 
 		"header header header header"
-		"main main main main"
+		"main main main social"
 		"footer footer footer footer";
 }
 .gNavBar{
@@ -39,6 +39,27 @@ body {
 	justify-content: center;
     align-items: center;
 }
+.main{
+	display: grid;
+	grid-area: main;
+}
+
+.about {
+	background-color: #ffffff;
+	color: #666666;
+	border: 1px solid #cccccc;
+
+}
+.social {
+	text-align: center;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	grid-area: social;
+	display: grid;
+    justify-content: center;
+    align-items: baseline;
+}
 
 h1,
 h2 {
@@ -56,22 +77,11 @@ br {
 	border-bottom: 4px solid #cccccc;
 }
 
-.main{
-	display: grid;
-	grid-area: main;
-}
-
-.about {
-	background-color: #ffffff;
-	color: #666666;
-	grid-area: 2 / 1 / 2 / 3;
-	justify-self: start;
-	border: 1px solid #cccccc;
-
-}
-
 .bio {
 	color: "#4aaaa5";
+	display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 /* #github,
@@ -81,21 +91,6 @@ br {
 	height: 60px;
 	margin-left: 10px;
 } */
-
-#connect-bottom {
-	width: 50%;
-	border-bottom: 4px solid #cccccc;
-	/* margin: 0 auto; */
-	margin-bottom: 25px;
-}
-.social {
-	text-align: center;
-	color: #4aaaa5;
-	background-color: #ffffff;
-	border: 1px solid #cccccc;
-	grid-area: 2 / 3 / 2 / 4;
-	justify-self: end;
-}
 
 .footer {
 	grid-area: footer;
