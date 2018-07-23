@@ -21,8 +21,8 @@ const Home = props =>
             <div className="about">
                 <h1 className="bio">About Me</h1>
             <br></br>
-                <div>
-                    <img className="" src="../../assets/images/headshot.jpg" alt="headshot of author" className="img-responsive"></img>
+                <div className="headshot">
+                    <img alt="headshot of author" className="img-responsive"></img>
                 </div>
             <br></br>      
             </div>
@@ -46,8 +46,8 @@ const Home = props =>
     {/*footer*/}
 
         <div className="footer">
-            <div className="">
-                <footer className="">
+            <div>
+                <footer>
                 &copy; Copyright 2018 Andrew Ferrer
                 </footer>
             </div>

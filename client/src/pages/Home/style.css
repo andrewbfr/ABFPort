@@ -5,8 +5,8 @@ body {
 }
 .grid-container {
 	display: grid;
-	grid-row-gap: 1vh;
-	grid-column-gap: 1vw;
+	grid-row-gap: 3px;
+	grid-column-gap: 3px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 15vh 70vh 15vh;
 	grid-template-areas: 
@@ -49,6 +49,10 @@ body {
 	color: #666666;
 	border: 1px solid #cccccc;
 
+}
+.headshot {
+	background-image: url(../../assets/images/headshot.jpg);
+	grid-column: 1 / 3;
 }
 .social {
 	text-align: center;
@@ -111,11 +115,12 @@ br {
 /*768px screen*/
 @media screen and (max-width: 768px) {
 
-ul {
+/* ul {
 	padding-top: 15px;
     padding-bottom: 15px;
 	}
-}
+*/
+} 
 
 
 /* get to this in a bit
