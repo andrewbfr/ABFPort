@@ -32,11 +32,16 @@ body, html {
 
 .nicoPara{
 	background-image: url(../../assets/images/nicoBG.JPG);
-	height: 100%;
+	height: 50vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.main{
+	/* display: grid; */
+	/* grid-area: main; */
+	height: 300px;
 }
 .name {
 	/* display: grid; */
@@ -51,11 +56,6 @@ body, html {
 	justify-content: center;
     align-items: center;
 }
-.main{
-	/* display: grid; */
-	/* grid-area: main; */
-	height: 300px;
-}
 
 .about {
 	/* display: flex; */
@@ -66,23 +66,58 @@ body, html {
 
 }
 .headshot {
-	flex: 75%;
-	max-width: 75%;
-	padding: 0 4px;
+	/* flex: 75%; */
+	/* max-width: 75%; */
+	/* padding: 0 4px; */
 }
 .bio {
 	color: "#4aaaa5";
-	display: flex;
+	/* display: flex; */
 	/* display: grid; */
 	justify-content: center;
 	align-items: center;
 }
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
 	.headshot {
 	  flex: 50%;
 	  max-width: 50%;
 	}
-  }
+  } */
+
+
+.agrippaBG{
+	background-image: url(../../assets/images/agrippaBG.JPG);
+	height: 50vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/* Tech Stack */
+.towBG{
+	background-image: url(../../assets/images/towBG.JPG);
+	height: 50vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/* Projects */
+
+.abfBG{
+	background-image: url(../../assets/images/abfBG.JPG);
+	height: 50vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
 .social {
 	text-align: center;
 	color: #4aaaa5;

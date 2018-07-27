@@ -36,6 +36,8 @@ outline:
     proj
     image
     footer with social
+
+    ok so make the rows with the grid instead of setting the vh unit, this will correspond with the desired and computed height of the images and the content rows
 */
 
 const Home = props =>
@@ -50,9 +52,12 @@ const Home = props =>
             </div>
         </div>
 
+    {/* Nico BG */}
+        <div className="nicoPara"></div>
 
 
-    {/* Main Content w/ parallax */}
+
+    {/* Main Content */}
         <div className="main">
             <div className="about">
                 <h1 className="bio">About Me</h1>
@@ -63,9 +68,36 @@ const Home = props =>
             </div>
         </div>
 
+    {/*Agrippa BG */}
+        <div className="agrippaBG"></div>
+
     {/* Tech Stack */}
+    <div className="tech">
+            <div>
+                <h1 className="stack">Tech Stack</h1>
+            <br></br>
+                <div>
+                </div>
+            <br></br>      
+            </div>
+        </div>
+
+    {/*Tow BG */}
+        <div className="towBG"></div>
 
     {/* Projects */}
+    <div className="builds">
+            <div>
+                <h1 className="projects">Projects</h1>
+            <br></br>
+                <div>
+                </div>
+            <br></br>      
+            </div>
+        </div>
+
+    {/*ABF BG */}
+    <div className="abfBG"></div>
 
     {/* Social Connect */}
 
