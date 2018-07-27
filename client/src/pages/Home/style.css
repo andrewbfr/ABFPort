@@ -8,15 +8,18 @@ body {
 	grid-row-gap: 3px;
 	grid-column-gap: 3px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 15vh 70vh 15vh;
+	/* grid-template-rows: 15vh 70vh 15vh;
 	grid-template-areas: 
 		"header header header header"
-		"main main main social"
-		"footer footer footer footer";
+		"main main main main"
+		"tech tech tech tech"
+		"project project project"
+		"social social social social"
+		"footer footer footer footer"; */
 }
 .gNavBar{
 	display: grid;
-	grid-area: header;
+	/* grid-area: header; */
 	background-color: #4aaaa5;
 	font-size: 2vh;
 	text-decoration: none;
@@ -28,39 +31,55 @@ body {
 
 .name {
 	display: grid;
-	grid-area: 1 / 1 / 1 / 2;
+	/* grid-area: 1 / 1 / 1 / 2; */
 	justify-content: center;
     align-items: baseline;
 }
 
 .navbar-links {
 	display: grid;
-	grid-area: 1 / 3 / 1 / 4;
+	/* grid-area: 1 / 3 / 1 / 4; */
 	justify-content: center;
     align-items: center;
 }
 .main{
 	display: grid;
-	grid-area: main;
+	/* grid-area: main; */
 }
 
 .about {
+	display: flex;
+	flex-wrap: wrap;
 	background-color: #ffffff;
 	color: #666666;
 	border: 1px solid #cccccc;
 
 }
 .headshot {
-	background-image: url(../../assets/images/headshot.jpg);
-	grid-column: 1 / 3;
+	flex: 75%;
+	max-width: 75%;
+	padding: 0 4px;
 }
+.bio {
+	color: "#4aaaa5";
+	display: flex;
+	/* display: grid; */
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (max-width: 800px) {
+	.headshot {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
 .social {
 	text-align: center;
 	color: #4aaaa5;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
-	grid-area: social;
 	display: grid;
+	/* grid-area: social; */
     justify-content: center;
     align-items: baseline;
 }
@@ -81,12 +100,6 @@ br {
 	border-bottom: 4px solid #cccccc;
 }
 
-.bio {
-	color: "#4aaaa5";
-	display: grid;
-    justify-content: center;
-    align-items: center;
-}
 
 /* #github,
 #linkedin,
@@ -97,7 +110,7 @@ br {
 } */
 
 .footer {
-	grid-area: footer;
+	/* grid-area: footer; */
 	background-color: #666666;
 	padding-top: 35px;
 	padding-bottom: 40px;

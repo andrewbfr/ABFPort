@@ -11,7 +11,10 @@ body {
 	grid-template-rows: 15vh 70vh 15vh;
 	grid-template-areas: 
 		"header header header header"
-		"main main main social"
+		"main main main main"
+		"tech tech tech tech"
+		"project project project"
+		"social social social social"
 		"footer footer footer footer";
 }
 .gNavBar{
