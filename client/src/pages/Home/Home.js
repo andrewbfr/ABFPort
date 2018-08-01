@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './style.css';
-import github from "../../assets/images/if_github_386637.png";
-import linkedin from "../../assets/images/if_linkedin2_326115.png";
-import SO from "../../assets/images/stackoverflow.png";
+import github from "../../assets/images/githubLogo.png";
+import linkedin from "../../assets/images/linkedin.png";
+import SO from "../../assets/images/stackOverflow.png";
 import tow from "../../assets/images/towBG.JPG";
 import abf from "../../assets/images/abfBG.JPG";
 import nico from "../../assets/images/nicoBG.JPG";
@@ -44,23 +44,23 @@ const Home = props =>
     <div className="grid-container">
         {/* Static Navbar. This will be a component */}
         <div className="gNavBar">
-            <div className="name">
+            <span className="name">
                 <a href="/"><h2>Andrew Ferrer</h2></a>
-            </div>
-            <div className="navbar-links">
+            </span>
+            <span className="navbar-links">
                 <a href="/">About</a><a href="/projects">Portfolio</a><a href="/contact">Contact</a>
-            </div>
+            </span>
         </div>
 
     {/* Nico BG */}
-        <div className="nicoPara"></div>
+        <div className="abfBG"></div>
 
 
 
     {/* Main Content */}
         <div className="main">
             <div className="about">
-                <h1 className="bio">About Me</h1>
+                <h1 className="bio headings">About Me</h1>
             <br></br>
                 <div className="headshot">
                 </div>
@@ -74,7 +74,7 @@ const Home = props =>
     {/* Tech Stack */}
     <div className="tech">
             <div>
-                <h1 className="stack">Tech Stack</h1>
+                <h1 className="stack headings">Tech Stack</h1>
             <br></br>
                 <div>
                 </div>
@@ -88,7 +88,7 @@ const Home = props =>
     {/* Projects */}
     <div className="builds">
             <div>
-                <h1 className="projects">Projects</h1>
+                <h1 className="headings projects">Projects</h1>
             <br></br>
                 <div>
                 </div>
@@ -97,23 +97,21 @@ const Home = props =>
         </div>
 
     {/*ABF BG */}
-    <div className="abfBG"></div>
+    <div className="nicoPara"></div>
 
     {/* Social Connect */}
 
         <div className="social">
-            <div>
-                <h2>Connect With Me</h2>
-                <a href="https://github.com/andrewbfr" target="_blank" rel="noopener noreferrer">
-                    <img src={github} alt="github icon" id="github"></img>
-                </a>
-                <a href="https://www.linkedin.com/in/andrew-ferrer-9aa011a6/" target="_blank" rel="noopener noreferrer">
-                    <img src={linkedin} alt="linkedin icon" id="linkedin"></img>
-                </a>
-                <a href="https://stackoverflow.com/users/8497994/andrewbfr" target="_blank" rel="noopener noreferrer">
-                    <img src={SO} alt="stack overflow icon" id="stacko"></img>
-                </a>
-            </div>
+            <h2>Connect With Me</h2>
+            <a href="https://github.com/andrewbfr" target="_blank" rel="noopener noreferrer">
+                <img src={github} alt="github icon" id="github"></img>
+            </a>
+            <a href="https://www.linkedin.com/in/andrew-ferrer-9aa011a6/" target="_blank" rel="noopener noreferrer">
+                <img src={linkedin} alt="linkedin icon" id="linkedin"></img>
+            </a>
+            <a href="https://stackoverflow.com/users/8497994/andrewbfr" target="_blank" rel="noopener noreferrer">
+                <img src={SO} alt="stack overflow icon" id="stacko"></img>
+            </a>
         </div>  
 
 
