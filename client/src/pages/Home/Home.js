@@ -3,10 +3,7 @@ import './style.css';
 import github from "../../assets/images/githubLogo.png";
 import linkedin from "../../assets/images/linkedin.png";
 import SO from "../../assets/images/stackOverflow.png";
-import tow from "../../assets/images/towBG.JPG";
-import abf from "../../assets/images/abfBG.JPG";
-import nico from "../../assets/images/nicoBG.JPG";
-import rome from "../../assets/images/agrippaBG.JPG";
+
 
 // import { ResponsiveImage, ResponsiveImageSize } from 'react-responsive-image';
 
