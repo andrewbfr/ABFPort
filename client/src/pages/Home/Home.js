@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './style.css';
 import github from "../../assets/images/githubLogo.png";
 import linkedin from "../../assets/images/linkedin.png";
-import SO from "../../assets/images/stackOverflow.png";
+import SO from "../../assets/images/stakkOverflow.png";
 
 
 // import { ResponsiveImage, ResponsiveImageSize } from 'react-responsive-image';
