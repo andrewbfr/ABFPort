@@ -38,14 +38,14 @@ outline:
 */
 
 const Home = props =>
-    <div className="grid-container">
+    <div className="flex-container">
         {/* Static Navbar. This will be a component */}
         <div className="gNavBar">
             <span className="name">
                 <a href="/"><h2>Andrew Ferrer</h2></a>
             </span>
             <span className="navbar-links">
-                <a href="/">About</a><a href="/projects">Portfolio</a><a href="/contact">Contact</a>
+                <a href="/">About</a> | <a href="/projects">Portfolio</a> | <a href="/contact">Contact</a>
             </span>
         </div>
 

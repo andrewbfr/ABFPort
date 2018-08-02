@@ -3,10 +3,16 @@ body, html {
 	padding: 0;
 	height: 100%;
 }
+.flex-container{
+	display: flex;
+	flex-direction: column;
+}
 
 .gNavBar{
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+    justify-content: space-between;
 	background-color: #d7c78c;
 	font-size: 2vh;
 	text-decoration: none;
@@ -19,15 +25,21 @@ body, html {
 .name {
 	display: flex;
 	justify-content: flex-start;
+	margin-left: 2vw;
 }
 
 .navbar-links {
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 2vw;
+}
+.navbar-links > a {
+	margin-right: 1vw;
+	margin-left: 1vw;
 }
 .abfBG{
 	background-image: url(../../assets/images/abfBG.JPG);
-	height: 50vh;
+	height: 70vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
