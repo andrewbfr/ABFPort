@@ -1,7 +1,10 @@
 {
-  "main.css": "static/css/main.6060f1c5.css",
-  "main.css.map": "static/css/main.6060f1c5.css.map",
-  "main.js": "static/js/main.d2b2e360.js",
-  "main.js.map": "static/js/main.d2b2e360.js.map",
-  "static/media/concrete-texture.png": "static/media/concrete-texture.3eb73e5d.png"
+  "main.css": "static/css/main.4d439959.css",
+  "main.css.map": "static/css/main.4d439959.css.map",
+  "main.js": "static/js/main.dabfffbf.js",
+  "main.js.map": "static/js/main.dabfffbf.js.map",
+  "static/media/abfBG.JPG": "static/media/abfBG.cb3d722e.JPG",
+  "static/media/agrippaBG.JPG": "static/media/agrippaBG.0c11983c.JPG",
+  "static/media/nicoBG.JPG": "static/media/nicoBG.bb4ae2c2.JPG",
+  "static/media/towBG.JPG": "static/media/towBG.38d168cb.JPG"
 }
