@@ -6,6 +6,9 @@ import SO from "../../assets/images/stakkOverflow.png";
 import H from "../../assets/page_logos/HTML5_logo.svg";
 import C from "../../assets/page_logos/CSS3_logo.svg";
 import JS from "../../assets/page_logos/js.png";
+import FM from "../../assets/appGIF/feedMe.gif";
+import CGIF from "../../assets/appGIF/CRYSTALZ.gif";
+import NCGIF from "../../assets/appGIF/newsCrumbs.gif";
 
 
 // import { ResponsiveImage, ResponsiveImageSize } from 'react-responsive-image';
@@ -99,13 +102,19 @@ const Home = () =>
         <div>
             <h1 className="headings">Projects</h1>
         <br></br>
-            <div className="projList">
-                <ul>
-                    <a href="https://feed-me-project-dos.herokuapp.com/login">A Node, Express and Sequelize Web App for picking local restaurants.</a>
+            <div>
+                <ul className="projList">
+                    <a href="https://feed-me-project-dos.herokuapp.com/login">A Node, Express and Sequelize Web App for picking local restaurants.
+                    <img className="sizedIcons techIcons" src={FM} alt="feedMe GIF" id="FGIF"></img>
+                    </a>
                    
-                    <a href="https://andrewbfr.github.io/crystalz/">A Javascript game!</a>
+                    <a href="https://andrewbfr.github.io/crystalz/">A Javascript game!
+                    <img className="sizedIcons techIcons" src={CGIF} alt="game GIF" id="CGIF"></img>
+                    </a>
                    
-                    <a href="https://news-crumbs.herokuapp.com/">MERN stack web app integrating News Search API from Webhose.io.</a>
+                    <a href="https://news-crumbs.herokuapp.com/">MERN stack web app integrating News Search API from Webhose.io.
+                    <img className="sizedIcons techIcons" src={NCGIF} alt="newsCrumbs GIF" id="NCGIF"></img>
+                    </a>
                 </ul>
             </div>
         <br></br>      
