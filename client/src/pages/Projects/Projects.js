@@ -49,7 +49,7 @@ const Projects = props =>
 
     {/*footer*/}
 
-        <div className="footer">
+        <div className="footer" id="contact">
             <div>
                 <footer>
                 &copy; Copyright 2018 Andrew Ferrer

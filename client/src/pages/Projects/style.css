@@ -61,6 +61,15 @@ body, html {
 
 }
 
+.keySection{
+	border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+	border-bottom-width: 8px;
+    border-bottom-style: solid;
+    border-bottom-color: #4aaaa5;
+}
+
 .agrippaBG{
 	background-image: url(../../assets/images/agrippaBG.JPG);
 	height: 50vh;
@@ -72,6 +81,18 @@ body, html {
 }
 
 /* Tech Stack */
+.logoContainer{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.sizedIcons {
+	width: 150px;
+	height: 150px;
+	margin: 6px;
+}
+
 .towBG{
 	background-image: url(../../assets/images/towBG.JPG);
 	height: 50vh;
@@ -97,7 +118,6 @@ body, html {
 	text-align: center;
 	color: #4aaaa5;
 	background-color: #ffffff;
-	border: 1px solid #cccccc;
     justify-content: center;
 	align-items: baseline;
 }
